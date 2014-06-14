@@ -53,7 +53,7 @@ function prompt_peepcode_setup {
   # Define prompts.
   PROMPT="
 %~
-%(?.%F{green}${1:-☻ }%f.%F{red}${1:-☻ }%f) "
+%(?.%F{green}${1:-⚔ }%f.%F{red}${1:-⚔}%f) "
 RPROMPT='${ruby_info[version]}${vcs_info_msg_0_}'
 
 }
@@ -64,7 +64,7 @@ This prompt's last command exit status symbol is customizable:
 
   prompt peepcode [<symbol>]
 
-If this option is not provided, the symbol defaults to ☻.
+If this option is not provided, the symbol defaults to ⚔.
 EOH
 }
 
